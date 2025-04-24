@@ -22,7 +22,7 @@ A Luau module designed for use within Roblox script executors to interact with t
 3. Alternatively, use your executor's `loadstring` function:
 
    ```lua
-   local ServerHopAPI = loadstring(game:HttpGetAsync(""))()
+   local ServerHopAPI = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/xvht/Lua_ServerAPI/refs/heads/main/server_api.luau"))()
    ```
 
    The script returns the `ServerHopAPI` table when executed.
